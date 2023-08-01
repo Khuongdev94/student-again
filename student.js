@@ -133,16 +133,19 @@ function addStudent (){
 }
 
 function validateEmail(email) {
+    console.log("hi",email)
     return String(email)
         .toLowerCase()
         .match(
             /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
         );
 };
-var isValidEmail = validateEmail(email);
+
+
 
 
 function validate({name,age,email,score}){
+    var isValidEmail = validateEmail(email);
     if(name !== ""){
         if(name.length <1 || name.length >20){
             alert("tên phải lớn hơn 0 và nhỏ hơn 20 ký tự")
