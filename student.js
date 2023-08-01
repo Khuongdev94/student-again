@@ -1,0 +1,16 @@
+var students = [
+    { id: 1, name: "anh", age: 12, email: "ags@gmail.com", score: 20 },
+    { id: 2, name: "hai", age: 15, email: "bs@gmail.com", score: 23 },
+    { id: 3, name: "đạt", age: 13, email: "fs@gmail.com", score: 12 },
+    { id: 4, name: "mạnh", age: 24, email: "es@gmail.com", score: 19 },
+    { id: 5, name: "nam", age: 43, email: "bs@gmail.com", score: 24 },
+    { id: 6, name: "hưng", age: 12, email: "ds@gmail.com", score: 21 },
+    { id: 7, name: "tiến", age: 29, email: "cs@gmail.com", score: 27 },
+    { id: 8, name: "tùng", age: 19, email: "gs@gmail.com", score: 10 },
+    { id: 9, name: "trung", age: 20, email: "is@gmail.com", score: 9 },
+    { id: 10, name: "định", age: 33, email: "ks@gmail.com", score: 14 },
+    { id: 11, name: "trọng", age: 29, email: "sds@gmail.com", score: 27 },
+    { id: 12, name: "sơn", age: 19, email: "gs@gmail.com", score: 18 },
+    { id: 13, name: "chính", age: 24, email: "êrs@gmail.com", score: 15 },
+    { id: 14, name: "thái", age: 32, email: "dfdf@gmail.com", score: 14 },
+];
